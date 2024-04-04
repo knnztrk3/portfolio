@@ -1,0 +1,309 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --ko-theme-primary: #8750f7;
+    --ko-theme-secondary: #2a1454;
+}
+
+html {
+    scrollbar-color: rgb(208, 137, 79) var(--ko-theme-secondary);
+} 
+
+
+/* navbar start */
+
+.nav-container {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(208, 208, 208, 0.2)
+}
+
+.link-container {
+    width: 100%;
+    display: flex;
+    padding: 30px 0px 20px 0px;
+}
+
+.nav-links-left {
+    display: flex;
+    margin-left: 120px;
+    width: 40%;
+}
+
+.nav-links-left ul li a:hover{
+    color: var(--ko-theme-primary)
+}
+
+.nav-links-contact {
+    margin-right: 120px;
+}
+
+.nav-links-contact ul li {
+    line-height: 50px;
+}
+
+.nav-links-right ul li {
+    margin-right: 40px;
+    line-height: 50px;
+}
+
+.nav-links-right ul li:hover{
+    color: var(--ko-theme-primary)
+}
+
+.nav-links-left ul li {
+    font-size: 17px;
+    margin-left: 30px;
+    line-height: 50px;
+
+    transition: all .4s ease-in-out;
+}
+
+.link-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.link-container ul li a {
+    color: var(--ko-theme-secondary);
+    text-decoration: none;
+
+    transition: all .2s ease-in;
+}
+
+.link-container ul li a:hover{
+    color: var(--ko-theme-primary);
+}
+
+.nav-links-right {
+    width: 50%;
+}
+
+.contact-button {
+    border: 1px solid var(--ko-theme-primary);
+    border-radius: 40px;
+    background-color: var(--ko-theme-primary);
+    text-align: center;
+    width: 120px;
+}
+
+.contact-button a {
+    color: #fff !important;
+}
+.logo {
+    transition: all .2s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar End */
+
+
+/* Header Content Start */
+
+.container {
+    display: flex;
+    margin: 0px 120px 0px 120px;
+}
+
+.header-container-wrapper.bg-color {
+    background-color: rgba(236, 228, 254, 0.5);
+}
+
+.left-header-content {
+    height: 590px;
+    width: 60%;
+}
+
+.context-text {
+    padding: 70px;
+}
+
+.context-text h1 {
+    font-size: 50px;
+}
+
+.context-text h3 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.context-text p {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight:lighter;
+}
+
+.link-content {
+    margin-top:50px;
+    display: flex;
+}
+.download-cv {
+    cursor: pointer;
+    color: var(--ko-theme-primary);
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 40px;
+    border: 1px solid var(--ko-theme-primary);
+
+    transition: all .2s ease-in-out;
+}
+
+.download-cv:hover {
+    transform: scale(1.1);
+}
+
+.download-cv a i {
+    color: var(--ko-theme-primary);
+}
+
+.icon-links {
+    margin-left: 40px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.icon-wrapper {
+    height: 50px;
+    margin-right: 15px;
+    width: 50px;
+    border: 1px solid var(--ko-theme-primary);
+    border-radius: 120px;
+
+    transition: all .2s ease-in-out;
+}
+
+.icon-wrapper a i {
+    color: var(--ko-theme-primary);
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.icon-links i {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.right-header-content {
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 35px;
+    transform: rotate(5deg);
+
+    transition: all .3s ease;
+}
+
+.right-header-content:hover {
+    transform: rotate(0deg);
+}
+
+.profile-img-wrapper {
+    width: 300px;
+    margin-top: 50px;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.profile-img-wrapper img {
+    height: 300px;
+    width: 300px;
+}
+/* Header Content End */
+
+
+
+/* Experience and Education Start */
+
+.header-container-wrapper.header-container-wrapper--color-2 {
+    background-color: rgb(255, 230, 222, 0.5)
+}
+
+.my-experience {
+    display: inline-block;
+    font-size: 30px;
+    width: 50%;
+    height: 400px;  
+}
+
+.my-experience i {
+    color: var(--ko-theme-primary);
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.my-education {
+    display: flex;
+    font-size: 30px;
+    width: 50%;
+    height: 400px;
+}
+
+.my-education i {
+    color: var(--ko-theme-primary);
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.my-education h1 {
+    color: var(--ko-theme-primary);
+}
+
+.edu-exp-container {
+    width: 100%;
+    height: 590px;
+    margin-top: 90px;
+    display: flex;
+}
+
+.my-experience-header {
+    display: flex;
+}
+
+.my-experience-header h1 {
+    color: var(--ko-theme-primary);
+}
+
+.experient-container {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 450px;
+    border-radius: 20px;
+    padding: 20px 30px 30px 30px;
+    
+    transition: all .4s ease-in-out;
+}
+
+.experient-container:hover {
+    background-color: var(--ko-theme-primary);
+    color: #fff;
+}
+
+.my-experience-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.my-experience-description {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.my-experience-location {
+    font-size: 22px;
+}
+
+
+/* Experience and Education End */
+
