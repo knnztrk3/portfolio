@@ -378,7 +378,7 @@ html {
 .contact-wrapper {
     width: 100%;
     display: flex;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(245 245 245);
     margin-bottom: 50px;
 }
 
@@ -388,6 +388,7 @@ html {
     padding: 50px;
     margin: 50px;
     color: #fff;
+    border-radius: 10px;
     background-color: var(--ko-theme-primary);
 }
 
@@ -405,7 +406,7 @@ html {
 }
 
 .send-message {
-    color: #fff ;
+    color: #dfdfdf ;
     width: 200px;
     height: 40px;
     text-align: center;
@@ -420,11 +421,32 @@ html {
 
 .send-message:hover {
     transform: scale(1.02);
+    color: #fff;
 }
 
 .form-control {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 5px 2px rgba(0,0,0,0.24);
 
+}
+
+
+.info-col {
+    margin-top: 100px;
+    display: flex;
+}
+
+.info-icon {
+    color: var(--ko-theme-primary);
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+.info-title {
+    font-size: 18px;
+}
+
+.info-context {
+    color: var(--ko-theme-primary) !important;
 }
 
 /* Contact End */
@@ -482,6 +504,7 @@ html {
     }
     .edu-exp-container {
         display: block;
+        margin-left: 200px;
     }
 
     .container {
@@ -503,6 +526,9 @@ html {
 
     .left-header-content {
         width: 100%;
+    }
+
+    .my-experience {
     }
 }
 
@@ -529,6 +555,17 @@ html {
         height: 790px;
         margin-top: 90px;
     }
+
+}
+
+
+@media (max-width: 993px) {
+    .contact-wrapper {
+        display: block ;
+        padding: 30px 0px 0px 60px;
+    }
+
+
 
 }
 
