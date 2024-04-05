@@ -429,7 +429,6 @@ html {
 
 }
 
-
 .info-col {
     margin-top: 100px;
     display: flex;
@@ -527,9 +526,6 @@ html {
     .left-header-content {
         width: 100%;
     }
-
-    .my-experience {
-    }
 }
 
 
@@ -558,15 +554,11 @@ html {
 
 }
 
-
 @media (max-width: 993px) {
     .contact-wrapper {
         display: block ;
         padding: 30px 0px 0px 60px;
     }
-
-
-
 }
 
 @media (max-width: 768px) {
