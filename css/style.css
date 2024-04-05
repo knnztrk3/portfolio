@@ -291,9 +291,7 @@ html {
 .experiment-container:hover {
     background-color: var(--ko-theme-primary);
     color: #fff;
-
     transform: rotate(-5deg);
-
 }
 
 .my-experience-title {
@@ -319,8 +317,6 @@ html {
     color: #fff;
 }
 
-
-
 /* Experience and Education End */
 
 /* Project CSS Start */
@@ -342,8 +338,9 @@ html {
 .project-image img {
     float: left;
     margin-right: 20px;
-    width: 250px;
+    width: 300px;
     height: 200px;
+    border-radius: 15px;
     transition: all .2s ease-in-out;
 }
 
@@ -375,6 +372,62 @@ html {
 }
 
 /* Project CSS End */
+
+/* Contact Start */
+
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    width: 635px;
+    height: 587px;
+    padding: 50px;
+    margin: 50px;
+    color: #fff;
+    background-color: var(--ko-theme-primary);
+}
+
+.contact-information {
+    width: 50%;
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.send-message {
+    color: #fff ;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: #3800a7;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 5px 2px rgba(0,0,0,0.24);
+
+    transition: all .3s ease-in-out;
+}
+
+.send-message:hover {
+    transform: scale(1.02);
+}
+
+.form-control {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 5px 2px rgba(0,0,0,0.24);
+
+}
+
+/* Contact End */
 
 /* Footer Start */
 
@@ -419,11 +472,10 @@ html {
     color: linear-gradient(260deg, var(--ko-theme-secondary) 0%, var(--ko-theme-primary) 100%);
 }
 
-
-
 /* Footer End */
 
 /* Add media query for smaller screens */
+
 @media (max-width: 1300px) {
     .nav-container {
         height: auto; /* Adjust height for smaller screens */
@@ -452,9 +504,6 @@ html {
     .left-header-content {
         width: 100%;
     }
-
-    .right-header-content {
-    }
 }
 
 
@@ -466,8 +515,6 @@ html {
         margin-right: 100px;
     }
 }
-
-
 
 @media (max-width: 913px) {
 

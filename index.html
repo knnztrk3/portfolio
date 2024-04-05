@@ -26,6 +26,7 @@
 
 </head>
 <body>
+    <!-- Header Navbar Start -->
     <header>
         <!-- Navbar Start -->
         <nav id="top">
@@ -55,7 +56,7 @@
                                 <a href="#projects">Works</a>
                             </li>
                             <li>
-                                <a href="#">Resume</a>
+                                <a href="#resume">Resume</a>
                             </li>
                             <li>
                                 <a href="#">Skills</a>
@@ -85,6 +86,7 @@
         </nav>
         <!-- Navbar End -->
     </header>
+    <!-- Header Navbar End -->
 
     <!-- Content Header Start -->
     <section>
@@ -128,7 +130,7 @@
     <!-- Content Header End -->
 
     <!-- Experience and Education Start -->
-    <section>
+    <section id="resume">
         <div class="header-container-wrapper header-container-wrapper--color-2">
             <div class="container">
                 <div class="edu-exp-container">
@@ -265,12 +267,55 @@
                         </div>
                 </div>
             </div>
-            </div>
         </div>
     </div>
     <!-- Projects End -->
 
+    <!-- Contact Start -->
+    <div class="container container-contact--bgcolor-1">
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <div class="form-title">
+                    <i class="fa-regular fa-address-card"></i> Contact with me 
+                </div>
+                <form>
+                    <div class="row">
+                      <div class="col">
+                        <label for="firstNameText">First Name</label>
+                        <input type="text" id="firstNameText" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <label for="lastNameText">Last Name</label>
+                        <input type="text" id="lastNameText" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col">
+                            <label for="emailAddressText">Email Address</label>
+                          <input type="text" id="emailAddressText" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="col">
+                            <label for="phoneNumberText">Phone Number</label>
+                          <input type="text" id="phoneNumberText" class="form-control" placeholder="Phone number">
+                        </div>
+
+                        <div class="form-group" style="margin-top: 10px;">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+                          </div>
+                      </div>
+
+                    <button class="send-message" name="send-msg">Send Message</button>
+                    
+                  </form>
+            </div>
+            <div class="contact-information">Contact Details</div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
     <footer >
        <div class="footer-container">
         <div class="footer-logo"><img src="./img/logo.png" alt="logo-png" height="100" width="100"></div>
@@ -290,5 +335,7 @@
         <div class="footer-all-rights">© 2024 All rights reserved by <a href="#">Kenan Ozturk</a></div>
        </div>
     </footer>
+    <!-- Footer End -->
+
 </body>
 </html>
