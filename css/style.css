@@ -291,6 +291,9 @@ html {
 .experiment-container:hover {
     background-color: var(--ko-theme-primary);
     color: #fff;
+
+    transform: rotate(-5deg);
+
 }
 
 .my-experience-title {
@@ -299,6 +302,7 @@ html {
 }
 
 .my-experience-description {
+    font-size: 20px;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -306,13 +310,24 @@ html {
 .my-experience-location {
     font-size: 22px;
 }
+.my-experience-location a {
+    text-decoration: none;
+    color: var(--ko-theme-secondary);
+}
+
+.my-experience-location a:hover{
+    color: #fff;
+}
+
 
 
 /* Experience and Education End */
 
-/* Custom CSS Start */
+/* Project CSS Start */
 
 .heading {
+    font-weight: 700;
+    color: var(--ko-theme-primary);
     margin: 70px;
     text-align: center;
 }
@@ -324,13 +339,53 @@ html {
     background: #fff;
     border-radius: 4px;
 }
-.project-image {
+.project-image img {
     float: left;
+    margin-right: 20px;
+    width: 250px;
+    height: 200px;
+    transition: all .2s ease-in-out;
+}
+
+.project-image:hover{
+    cursor: pointer;
+}
+
+.project {
+    width: 100%;
+}
+
+.project-title {
+    color: var(--ko-theme-primary);
+}
+
+.project-link a {
+    color: var(--ko-theme-secondary);
+    text-decoration: none;
+}
+
+.project-link a:hover{
+    color: var(--ko-theme-primary);    
+}
+
+.project-container {
+    margin: 0px 120px 0px 120px;
+
+    margin-bottom: 80px;
+}
+
+/* Project CSS End */
+
+/* Footer Start */
+
+.footer-container {
+    height: 300px; 
+    background-color: bisque;
 }
 
 
 
-/* Custom CSS End */
+/* Footer End */
 
 /* Add media query for smaller screens */
 @media (max-width: 1300px) {
